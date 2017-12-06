@@ -1,0 +1,19 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+<VBox
+        xmlns:fx="http://javafx.com/fxml"
+        fx:controller="sample.Controller"
+        alignment="center"
+        style="-fx-background: #FF0000">
+
+    <TextField fx:id="vA" promptText="Value"/>
+    <TextField fx:id="vB" promptText="Divider"/>
+    <TextField fx:id="vScale" promptText="Scale"/>
+
+    <Button onMouseClicked="#onDivideClick">Divide</Button>
+
+    <Text fx:id="vResult"/>
+
+
+</VBox>
